@@ -1,47 +1,99 @@
 *{
     background-color: #1B1B1B;
+    color: #9b9b99;
 }
 
-.table{
+table{
     text-align: center;
-    font-size: 25px;
-    color: #9B9987;
-    border-color: #1B1B1B;
-    padding: 0%;
-    margin: 0%;
+    font-size: 54px;
+    color: #e4c205;
+    padding: none;
+    margin: none;
     font-weight: 700;
     font-family: sans-serif;
+    border: none;
+}
+
+td {
+    display: inline;
+    border: none;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+tr {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: none;
+    border-top: solid 1px;
+    border-color: rgb(100, 99, 99);
 }
 
 #nro {
     display: flex;
+    margin: auto;
+    text-align: center;
     width: 130px;
     height: 130px;
-    text-align: center;
-    margin: auto;
     border-radius: 50%;
-    background-color: #cabb35;
+    background-color: rgb(245, 245, 107);
     font-size: 70px;
     font-weight: 800;
     font-family: sans-serif;
     border: none;
+    margin-left: 50px;
+    color: black
 }
 
 div{
     background-color: #1B1B1B;
     color: rgb(245, 245, 107);
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 50px;
     display: flex;
     margin: auto;
     text-align: center;
     font-weight: 700;
 }
 
-#act {
+#act{
     display: flex;
     margin: auto;
-    background-color: #9B9987;
+    background-color: #3b3b3b;
     border: none;
     padding: 10px;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 70px;
+    color: rgb(255, 255, 255);
+    width: 90%;
+}
+
+#bingo{
+    display: flex;
+    margin: auto;
+    background-color: #a51704;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 70px;
+    color: rgb(255, 255, 255);
+    width: 90%;
+}
+
+#linea{
+    display: flex;
+    margin: auto;
+    background-color: #236108;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 70px;
+    color: rgb(255, 255, 255);
+    width: 90%;
+
 }
