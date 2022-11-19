@@ -1,0 +1,47 @@
+*{
+    background-color: #1B1B1B;
+}
+
+.table{
+    text-align: center;
+    font-size: 25px;
+    color: #9B9987;
+    border-color: #1B1B1B;
+    padding: 0%;
+    margin: 0%;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+#nro {
+    display: flex;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #cabb35;
+    font-size: 70px;
+    font-weight: 800;
+    font-family: sans-serif;
+    border: none;
+}
+
+div{
+    background-color: #1B1B1B;
+    color: rgb(245, 245, 107);
+    font-family: sans-serif;
+    font-size: 25px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+#act {
+    display: flex;
+    margin: auto;
+    background-color: #9B9987;
+    border: none;
+    padding: 10px;
+}
