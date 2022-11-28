@@ -5,6 +5,7 @@ const linea = document.getElementById("linea");
 let ultimo = document.querySelector(".uNumero");
 const body = document.querySelector("body");
 
+
 enviar.addEventListener("click",(e)=>{
     e.preventDefault();
     let nxx = "n" + numero.value;
